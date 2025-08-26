@@ -1,25 +1,25 @@
 # Lightweight Machine Learning-Based Anomalous Signal Detection for Smart Meter Data in Smart Grids
 
 ## Overview
-This repository contains the implementation of a thesis project focused on developing lightweight machine learning models for real-time anomaly detection in smart meter data within smart grids. The project emphasizes efficiency, accuracy, and scalability for resource-constrained edge devices, such as those in IoT-enabled smart grids. It addresses challenges like equipment failures and cyberattacks through anomaly detection.
+This repository contains the implementation of a thesis project focused on developing lightweight machine learning models for real-time anomaly detection in smart meter data within smart grids. The project emphasises efficiency, accuracy, and scalability for resource-constrained edge devices, such as those in IoT-enabled smart grids. It addresses challenges like equipment failures and cyberattacks through anomaly detection.
 
 ### Key Components
 - **Machine Learning Models**: Implementation and evaluation of lightweight algorithms, including:
-  - Decision Trees (base, with optimized version in a separate root folder file)
+  - Decision Trees (base, with optimised version in a separate root folder file)
   - Isolation Forests (base, with adjusted version in a separate root folder file)
-  - Random Forests (base, with optimized version in a separate root folder file)
+  - Random Forests (base, with optimised version in a separate root folder file)
   - Gradient Boosting
 - **Dataset Handling**: Preprocessing and analysis of simulated and real-world datasets, including a subset from the [UCI Machine Learning Repository: Individual Household Electric Power Consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption).
-- **Web Application**: A Flask-based web app for sequential model training, external dataset validation, performance evaluation, and visualization (e.g., confusion matrices, ROC curves). Note: Optimized model versions are not included in the web app files but are available in separate files in the root folder.
-- **Edge Deployment Focus**: Models optimized for low latency and minimal resource usage, tested in simulated environments like Raspberry Pi 4.
+- **Web Application**: A Flask-based web app for sequential model training, external dataset validation, performance evaluation, and visualisation (e.g., confusion matrices, ROC curves). Note: Optimised model versions are not included in the web app files but are available in separate files in the root folder.
+- **Edge Deployment Focus**: Models optimised for low latency and minimal resource usage, to be tested in simulated environments like Raspberry Pi 4.
 
 This project serves as a proof-of-concept for real-time anomaly detection in smart grids.
 
 ## Features
 - **Anomaly Detection**: Statistical outlier detection using rolling means and standard deviations, supporting class-imbalanced datasets.
-- **Model Optimization**: Hyperparameter tuning with GridSearchCV, feature subset analysis, and cross-validation.
+- **Model Optimisation**: Hyperparameter tuning with GridSearchCV, feature subset analysis, and cross-validation.
 - **Web Interface**: A user-friendly 5-step workflow for data upload, model training, testing, and comparative analysis.
-- **Visualizations**: Automatically generated plots for model performance metrics (e.g., confusion matrices, ROC curves).
+- **Visualisations**: Automatically generated plots for model performance metrics (e.g., confusion matrices, ROC curves).
 - **Efficiency Metrics**:
   - Inference time: <1 second
   - Memory usage: <5 MB
