@@ -9,7 +9,7 @@ This repository contains the implementation of a thesis project focused on devel
   - Isolation Forests (base, with adjusted version in a separate root folder file)
   - Random Forests (base, with optimised version in a separate root folder file)
   - Gradient Boosting
-- **NB**: All 7 models are trained in the code saved as main.py
+- **NB**: All 7 models are trained in the code saved as models.py
 - **Dataset Handling**: Preprocessing and analysis of simulated and real-world datasets, including a subset from the [UCI Machine Learning Repository: Individual Household Electric Power Consumption](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption).
 - **Web Application**: A Flask-based web app for sequential model training, external dataset validation, performance evaluation, and visualisation (e.g., confusion matrices, ROC curves). Note: Optimised model versions are not included in the web app files but are available in separate files in the root folder.
 - **Edge Deployment Focus**: Models optimised for low latency and minimal resource usage, to be tested in simulated environments like Raspberry Pi 4.
